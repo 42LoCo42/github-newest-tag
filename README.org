@@ -8,8 +8,4 @@ Inspired by [[https://stackoverflow.com/a/47502810][this]] Stack Overflow answer
 1. Create a new personal access token [[https://github.com/settings/tokens?type=beta][here]]
 2. =export GITHUB_TOKEN=yourtoken=
    or put it in =.env= when using this repo's devshell
-3.
-#+begin_src text
-  $ go run . chimera-linux turnstile
-  v0.1.10
-#+end_src
+3. =go run . 42loco42 github-newest-tag= returns =1=. yay!
